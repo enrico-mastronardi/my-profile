@@ -1,0 +1,121 @@
+/* Colors and fonts */
+body {
+	background: #2962B4;
+	color: rgb(30, 30, 30);
+	font-family: 'Lora', serif;
+	font-size: 15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: rgb(40, 40, 40);
+	font-size: 30px;
+	font-weight: 900;
+}
+
+h2{
+	color: #1C1E2D;
+    font-size: 20px;
+    font-weight: 500
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+div {
+	border-radius: 9px;
+	color: black;
+	font-size:20p;
+	background: white;
+	margin: 50px;
+	padding: 40px;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+	border-radius: 0px;
+	border: 0px white;
+	background: #2962B4;
+}
+
+@media (max-width: 560px) {
+	.container {
+		width: 400px;
+	}
+	.img-circle {
+		width: 300px;
+	}
+}
+
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 30px 30px;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.6);
+	border-radius: 8px;
+	margin: 35px 10px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #123851;
+	color: white;
+	padding: 8px 16px;
+}
+
+.btn-blue:hover {
+	background-color: rebeccapurple;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #004E8C;
+}
+.list-inline i:hover{
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
